@@ -43,6 +43,8 @@ else:
         exit()
     for let in string:
             i = 0
+            if let == ' ':
+                sos_string += ' '
             while i < 26 and i < 26:
                 if letter[i] == let or Bletter[i] == let:
                     sos_string += sos[i]
